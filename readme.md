@@ -3,9 +3,13 @@
 Code to detect the embedded high frequency audio file and fetch corresponding project and card details. The detected card, the corresponding project and the other associated cards in the same project will be stored in an local SQLite database. Every fetched card also has an option to send a tweet from the same page.
 
 # Adding support library projects.
-  1)Google Play Services.
+
+  1)Google Play Services
+
   	Please import Google Play Services library project from your android "sdk/extras/google/google_play_services/libproject/".
+
   2)App compactability
+
 	Please import App compactability library project from your android "sdk/extras/android/support/v7/appcompat".
 
 # Integrating FilmSync library project to FilmSync demo project.
