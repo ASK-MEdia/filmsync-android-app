@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="project_list_header_textsize">35dp</dimen>
+    <dimen name="project_list_item_textsize">30dp</dimen>
+    <dimen name="project_list_item_padding">25dp</dimen>
+    <dimen name="loading_text_size">25sp</dimen>
+    <dimen name="twitter_btn_dwn_margin">60dp</dimen>
+    <dimen name="help_text_padding">20dp</dimen>
+    <dimen name="scan_animation_width">400dp</dimen>
+    <dimen name="help_text_size">20sp</dimen>
+</resources>

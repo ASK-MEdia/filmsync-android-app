@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <FrameLayout
+        android:id="@+id/containerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.87" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/Ll_Vertical_Central_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Ll_Horizontal_Central_line"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_hidden"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="false" />
+
+        <View
+            android:id="@+id/above_color"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/Ll_separator"
+            android:background="#567E93" />
+
+        <View
+            android:id="@+id/down_marginView"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@+id/Ll_separator" />
+
+        <LinearLayout
+            android:id="@+id/Ll_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/view_hidden"
+            android:background="#567E93"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/scan_btn" />
+        <!-- android:text="HDPI" -->
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnHelp"
+            android:layout_alignRight="@+id/btnHelp"
+            android:layout_below="@+id/btnHelp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="@string/help"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvPlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnProjectList"
+            android:layout_alignRight="@+id/btnProjectList"
+            android:layout_below="@+id/btnProjectList"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:text="@string/project_details"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/down_marginView"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/help_normal_btn" />
+
+        <Button
+            android:id="@+id/btnProjectList"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/down_marginView"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/plist_normal_btn" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FilmSync</string>
+    <string name="action_settings">Settings</string>
+    <string name="detected_code">Detected Code</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="internet_connectivity_not_available">Internet Connectivity not available</string>
+    <string name="project_details">List</string>
+    <string name="card_title">Card Title</string>
+    <string name="help">Help</string>
+    <string name="project_list">Project List</string>
+    <string name="tw_btn_txt_login">Login</string>
+    <string name="twitter_share_text">Share text</string>
+    <string name="twitter_btn_share">Share</string>
+    <string name="username_twitter">Username</string>
+    <string name="session_time_out">Session time out</string>
+    <string name="animation_image">animation image</string>
+    <string name="cards_count_txt">"Cards"</string>
+    <string name="help_screen_information">help screen information</string>
+    <string name="help_support_text">For further support or information please go to</string>
+    <string name="filmsync_site_url">filmsync.org</string>
+
+</resources>

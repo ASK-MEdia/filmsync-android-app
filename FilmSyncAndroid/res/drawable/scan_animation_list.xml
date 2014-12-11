@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/sync_wave01" android:duration="0" />
+    <item android:drawable="@drawable/sync_wave01" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave02" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave03" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave04" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave05" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave06" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave07" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave08" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave09" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave10" android:duration="100" />
+    <item android:drawable="@drawable/sync_wave11" android:duration="100" />
+	<item android:drawable="@drawable/sync_wave12" android:duration="0" />
+    
+</animation-list>

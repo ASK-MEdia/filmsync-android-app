@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.filmsync.ScanFragment" >
+
+    <ImageView
+        android:id="@+id/imgScanAnimation"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.26"
+        android:contentDescription="@string/animation_image"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvCardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:hint="@string/card_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:visibility="gone" >
+
+        <WebView
+            android:id="@+id/webView_Card"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dp"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/btnTwitter"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="@dimen/twitter_btn_dwn_margin"
+            android:background="@drawable/twitter_btn" 
+            android:alpha="0.8"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvDetectedText"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        android:layout_weight="0.1"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="#AAAAAA"
+        android:textSize="@dimen/loading_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout>
