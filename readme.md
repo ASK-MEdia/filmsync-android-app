@@ -12,7 +12,8 @@ Code to detect the embedded high frequency audio file and fetch corresponding pr
 
 	Add the "appcompat" library project by using eclipse (project > properties > Android > library)
 
-	![Alt text](https://github.com/ASK-MEdia/filmsync-android-app/blob/master/filmsync_support_library.png "Support Library Projects")
+![Alt text](filmsync_support_library.png?raw=true "Support Library Projects")
+	
 
 # Integrating FilmSync library project to FilmSync demo project.
 
