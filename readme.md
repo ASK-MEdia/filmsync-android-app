@@ -4,16 +4,17 @@ Code to detect the embedded high frequency audio file and fetch corresponding pr
 
 # Adding support library projects.
 
-  1)Google Play Services
+  1) Google Play Services
 	
 	Add the "google-play-services_lib" library project by using eclipse (project > properties > Android > library)
 
-  2)App compactability
+  2) App compactability
 
 	Add the "appcompat" library project by using eclipse (project > properties > Android > library)
 
 ![Alt text](filmsync_support_library.png?raw=true "Support Library Projects")
-	
+
+  3) Use Android API level 21 (Android 5.0).
 
 # Integrating FilmSync library project to FilmSync demo project.
 
