@@ -16,7 +16,7 @@ Code to detect the embedded high frequency audio file and fetch corresponding pr
 	
 	Add the "viewpager_library" library project by using eclipse (project > properties > Android > library)
 
-![Alt text](filmsync_support_library.png?raw=true "Support Library Projects")
+![Alt text](filmsync_support_library_add_help.png?raw=true "Support Library Projects")
 
   4) Use Android API level 21 (Android 5.0).
 
