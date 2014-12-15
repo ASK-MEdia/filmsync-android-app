@@ -11,10 +11,14 @@ Code to detect the embedded high frequency audio file and fetch corresponding pr
   2) App compactability
 
 	Add the "appcompat" library project by using eclipse (project > properties > Android > library)
+ 
+  3) View pager library
+	
+	Add the "viewpager_library" library project by using eclipse (project > properties > Android > library)
 
 ![Alt text](filmsync_support_library.png?raw=true "Support Library Projects")
 
-  3) Use Android API level 21 (Android 5.0).
+  4) Use Android API level 21 (Android 5.0).
 
 # Integrating FilmSync library project to FilmSync demo project.
 
