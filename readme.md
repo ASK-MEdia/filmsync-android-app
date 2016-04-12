@@ -1,3 +1,16 @@
+Part of the FilmSync project.
+
+<ul>
+          <li><a href="https://github.com/ASK-MEdia/filmsync-android-library">FilmSync Android Library</a>
+            <li><a href="https://github.com/ASK-MEdia/filmsync-android-app">FilmSync Android App</a>
+            
+            <li><a href="https://github.com/ASK-MEdia/filmsync-ios-library">FilmSync iOS Library</a>
+          <li><a href="https://github.com/ASK-MEdia/filmsync-ios-app">FilmSync iOS App</a>
+         
+            <li><a href="https://github.com/ASK-MEdia/filmsync-cms">FilmSync CMS</a>
+
+        </ul>
+
 ## Introduction
 
 Code to detect the embedded high frequency audio file and fetch corresponding project and card details. The detected card, the corresponding project and the other associated cards in the same project will be stored in an local SQLite database. Every fetched card also has an option to send a tweet from the same page.
